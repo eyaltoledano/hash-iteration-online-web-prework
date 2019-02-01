@@ -11,5 +11,6 @@ def select_winner(passengers)
     if suite == "suite_a" && name[0] == "A"
       return passengers[:suite_a]
     end
+    passengers[:suite_a]
   end
 end
